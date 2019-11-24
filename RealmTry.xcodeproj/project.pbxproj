@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048D6F01021E6F10E1DD1EC6 /* Pods_RealmTry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086D845132A63E25BBFC3E02 /* Pods_RealmTry.framework */; };
 		B82C6632237D3C2300870CC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82C6631237D3C2300870CC1 /* AppDelegate.swift */; };
 		B82C6634237D3C2300870CC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82C6633237D3C2300870CC1 /* ViewController.swift */; };
 		B82C6637237D3C2300870CC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82C6635237D3C2300870CC1 /* Main.storyboard */; };
 		B82C663A237D3C2300870CC1 /* RealmTry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B82C6638237D3C2300870CC1 /* RealmTry.xcdatamodeld */; };
 		B82C663C237D3C2600870CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82C663B237D3C2600870CC1 /* Assets.xcassets */; };
 		B82C663F237D3C2600870CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82C663D237D3C2600870CC1 /* LaunchScreen.storyboard */; };
+		B82C6647237D3F1900870CC1 /* RealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82C6646237D3F1900870CC1 /* RealmData.swift */; };
+		B832239F237E78FA00C208AD /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B832239E237E78FA00C208AD /* Realm.framework */; };
+		B83223A1237E78FF00C208AD /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83223A0237E78FF00C208AD /* RealmSwift.framework */; };
+		B83223A3237E8B9700C208AD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83223A2237E8B9600C208AD /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		086D845132A63E25BBFC3E02 /* Pods_RealmTry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmTry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BF2242E8DB245B34A13D54 /* Pods-RealmTry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmTry.debug.xcconfig"; path = "Target Support Files/Pods-RealmTry/Pods-RealmTry.debug.xcconfig"; sourceTree = "<group>"; };
+		7736010655EB1DB842CFD082 /* Pods-RealmTry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmTry.release.xcconfig"; path = "Target Support Files/Pods-RealmTry/Pods-RealmTry.release.xcconfig"; sourceTree = "<group>"; };
 		B82C662E237D3C2300870CC1 /* RealmTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82C6631237D3C2300870CC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B82C6633237D3C2300870CC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		B82C663B237D3C2600870CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B82C663E237D3C2600870CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B82C6640237D3C2600870CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82C6646237D3F1900870CC1 /* RealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmData.swift; sourceTree = "<group>"; };
+		B832239E237E78FA00C208AD /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83223A0237E78FF00C208AD /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83223A2237E8B9600C208AD /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B83223A1237E78FF00C208AD /* RealmSwift.framework in Frameworks */,
+				B832239F237E78FA00C208AD /* Realm.framework in Frameworks */,
+				048D6F01021E6F10E1DD1EC6 /* Pods_RealmTry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				B82C6630237D3C2300870CC1 /* RealmTry */,
 				B82C662F237D3C2300870CC1 /* Products */,
+				F62138D2D389820614963A3B /* Pods */,
+				CFAC91974FC8866FCFAC67D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				B82C6631237D3C2300870CC1 /* AppDelegate.swift */,
+				B83223A2237E8B9600C208AD /* TableViewController.swift */,
 				B82C6633237D3C2300870CC1 /* ViewController.swift */,
+				B82C6646237D3F1900870CC1 /* RealmData.swift */,
 				B82C6635237D3C2300870CC1 /* Main.storyboard */,
 				B82C663B237D3C2600870CC1 /* Assets.xcassets */,
 				B82C663D237D3C2600870CC1 /* LaunchScreen.storyboard */,
@@ -67,6 +86,25 @@
 			path = RealmTry;
 			sourceTree = "<group>";
 		};
+		CFAC91974FC8866FCFAC67D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B83223A0237E78FF00C208AD /* RealmSwift.framework */,
+				B832239E237E78FA00C208AD /* Realm.framework */,
+				086D845132A63E25BBFC3E02 /* Pods_RealmTry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F62138D2D389820614963A3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75BF2242E8DB245B34A13D54 /* Pods-RealmTry.debug.xcconfig */,
+				7736010655EB1DB842CFD082 /* Pods-RealmTry.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B82C6643237D3C2600870CC1 /* Build configuration list for PBXNativeTarget "RealmTry" */;
 			buildPhases = (
+				C616472053890EE2273F43AF /* [CP] Check Pods Manifest.lock */,
 				B82C662A237D3C2300870CC1 /* Sources */,
 				B82C662B237D3C2300870CC1 /* Frameworks */,
 				B82C662C237D3C2300870CC1 /* Resources */,
+				8E354A1A02DFBE5B9A07D068 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +173,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E354A1A02DFBE5B9A07D068 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmTry/Pods-RealmTry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmTry/Pods-RealmTry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealmTry/Pods-RealmTry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C616472053890EE2273F43AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmTry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B82C662A237D3C2300870CC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B82C6634237D3C2300870CC1 /* ViewController.swift in Sources */,
+				B82C6647237D3F1900870CC1 /* RealmData.swift in Sources */,
 				B82C6632237D3C2300870CC1 /* AppDelegate.swift in Sources */,
+				B83223A3237E8B9700C208AD /* TableViewController.swift in Sources */,
 				B82C663A237D3C2300870CC1 /* RealmTry.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,10 +368,13 @@
 		};
 		B82C6644237D3C2600870CC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BF2242E8DB245B34A13D54 /* Pods-RealmTry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79G7F2QQ57;
 				INFOPLIST_FILE = RealmTry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,10 +388,13 @@
 		};
 		B82C6645237D3C2600870CC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7736010655EB1DB842CFD082 /* Pods-RealmTry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79G7F2QQ57;
 				INFOPLIST_FILE = RealmTry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
